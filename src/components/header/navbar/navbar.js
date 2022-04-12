@@ -110,10 +110,126 @@ const NavbarHeader = () => {
                 <span>Anime.</span>
               </Title>
             </Offcanvas.Header>
-            <Offcanvas.Body className="color-canvas">
+            <Offcanvas.Body className="color-canvas bg-purple">
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">Link</Nav.Link>
+                <div>
+                  <p className="text-green bg-blue p-2 rounded-2 ">
+                    Animes Por Tipo:
+                  </p>
+                  <hr className="bg-white mt-2" />
+                  <div className="flex gap-60">
+                    <NavLink href="#Ovas" className="text-white">
+                      Ovas
+                    </NavLink>
+                    <NavLink href="#Peliculas" className="text-white">
+                      Peliculas
+                    </NavLink>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-green bg-blue p-2 rounded-2 ">
+                    Animes Por Idioma:
+                  </p>
+                  <hr className="bg-white mt-2" />
+                  <div className="flex gap-60">
+                    <Nav.Link href="#action1" className="text-white">
+                      Español Latino
+                    </Nav.Link>
+                    <Nav.Link href="#action2" className="text-white">
+                      Japones
+                    </Nav.Link>
+                  </div>
+                </div>
+                <div className="pb-2">
+                  <p className="text-green bg-blue p-2 rounded-2 ">
+                    Animes Por Genero:
+                  </p>
+                  <hr className="bg-white mt-2" />
+                  <div className="flex gap-52 m-3">
+                    <div className="col-1">
+                      <Nav.Link href="#action2" className="text-white">
+                        Accion
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Autos
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Colegial
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Cosas de la vida
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Fantasia
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                    </div>
+                    <div className="col-2">
+                      <Nav.Link href="#action2" className="text-white">
+                        Accion
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Autos
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Colegial
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Cosas de la vida
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Fantasia
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                      <Nav.Link href="#action2" className="text-white">
+                        Japones
+                      </Nav.Link>
+                    </div>
+                  </div>
+                </div>
               </Nav>
               <Form className="d-flex">
                 <FormControl
@@ -124,7 +240,7 @@ const NavbarHeader = () => {
                 />
                 <Button
                   variant="outline-success"
-                  className="bg-blue text-green hover:bg-green hover:text-blue transition-all  duration-300"
+                  className="bg-blue text-green hover:bg-green hover:text-blue transition-all  duration-300 border-none"
                 >
                   Search
                 </Button>
