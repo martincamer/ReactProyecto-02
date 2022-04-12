@@ -1,0 +1,106 @@
+@import "../../sass/style.scss";
+.img-opacity {
+  height: 600px;
+}
+.bg-Icon-color {
+  color: #ffff;
+  :hover {
+    transition: 0.8s all;
+    transform: scale(1.2);
+    color: $color-celeste;
+  }
+}
+
+.nav-color {
+  background-color: #1b224b28;
+  opacity: 1;
+}
+
+.background-color {
+  background-color: $color-azuloscuro;
+}
+
+.navlink {
+  a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  a:hover {
+    animation-name: animationBorder;
+    animation-duration: 0.5s;
+    color: $color-celeste;
+  }
+}
+
+@keyframes animationBorder {
+  0% {
+    border-bottom: 3px solid;
+    transition: 0.3s;
+  }
+
+  50% {
+    border-bottom: 3px solid;
+    transition: 0.6s;
+  }
+
+  100% {
+    border-bottom: 3px solid;
+    transition: 1s;
+  }
+}
+
+.title-nova {
+  color: $color-blanco;
+}
+.nova {
+  color: $color-celeste;
+}
+.title-nova span {
+  font-size: 24px;
+}
+.bars {
+  color: $color-blanco;
+  :hover {
+    transition: 0.3s;
+    color: $color-celeste;
+    cursor: pointer;
+  }
+}
+
+#menu-bar {
+  display: none;
+}
+
+.h3-title {
+  color: $color-celeste;
+  background-color: $color-azuloscuro;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel-item-uno {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.p-title {
+  background-color: $color-blanco;
+  color: $color-azuloscuro;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.color-canvas {
+  background-color: $color-blanco;
+}
+
+.canvas-header {
+  background-color: $color-azuloscuro;
+}
