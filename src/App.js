@@ -1,14 +1,12 @@
-import Header from "./components/header/header";
-import Seccion from "./components/main/main";
-import "./tailwind/index.css";
-import "./sass/style.scss";
+import Navs from './components/Header/Navbar';
+import './tailwind/index.css';
+
 function App() {
-  return (
-    <div className="App">
-      <Header></Header>
-      <Seccion></Seccion>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Navs />
+		</div>
+	);
 }
 
 export default App;
