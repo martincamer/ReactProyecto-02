@@ -14,7 +14,7 @@ import { FaTwitter, FaFacebook, FaInstagram, FaDiscord } from 'react-icons/fa';
 
 const Navs = () => {
 	return (
-		<div>
+		<div className=" w-full h-full">
 			{[false].map((expand) => (
 				<Navbar
 					key={expand}
