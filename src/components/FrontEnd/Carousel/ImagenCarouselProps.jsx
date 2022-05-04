@@ -18,13 +18,13 @@ const ImagenCarouselProps = (props) => {
 			>
 				<div className="flex flex-col gap-3 px-3">
 					<div>
-						<h2 className="text-white text-4xl back font-bold bg-gray-600 py-2 px-2 bg-opacity-50 rounded-[10px] font-mono">
+						<h2 className="text-white text-4xl back font-bold bg-pink-600 py-2 px-2 bg-opacity-50 rounded-[10px] font-mono">
 							{props.titulo}
 						</h2>
 					</div>
 					<div>
 						<a
-							className="bg-white bg-opacity-50 hover:bg-black hover:opacity-50 hover:text-white text-black font-bold text-2xl py-2 px-4  rounded-3"
+							className="  bg-[#0a192f]  font-bold text-2xl    py-2 px-4  rounded-3 hover:text-[#0a192f] hover:bg-[#ffff]  hover:duration-300"
 							href={props.anime}
 						>
 							{props.button}

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
+import { DataAnimes } from '../Data/Animes/DataAnimes';
+import AnimesCard from './AnimesCard';
 import './app.css';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
+// import Naruto from '../AnimesIntro/Naruto';
 
 const NextArrow = ({ onClick }) => {
 	return (
@@ -25,7 +28,7 @@ export default class Responsive extends Component {
 			dots: true,
 			infinite: true,
 			speed: 500,
-			slidesToShow: 3,
+			slidesToShow: 4,
 			slidesToScroll: 1,
 			initialSlide: 0,
 			autoplay: true,
@@ -59,25 +62,38 @@ export default class Responsive extends Component {
 			],
 		};
 		return (
-			<div>
-				<h2> Responsive </h2>
-				<Slider className="py-3" {...settings}>
-					<img
-						className="rounded-3 mx-3 px-3"
-						src="https://cdn.jkanime.net/assets/images/animes/video/image/jkvideo_8884f91b8ba039d740fa99d8b3817738.jpg"
-					></img>
-					<img
-						className="rounded-3 mx-3 px-3"
-						src="https://cdn.jkanime.net/assets/images/animes/video/image/jkvideo_0e909f95516342a275e560d1e1769800.jpg"
-					></img>
-					<img
-						className="rounded-3 mx-3 px-3"
-						src="https://cdn.jkanime.net/assets/images/animes/video/image/jkvideo_8884f91b8ba039d740fa99d8b3817738.jpg"
-					></img>
-					<img
-						className="rounded-3 mx-3 px-3"
-						src="https://cdn.jkanime.net/assets/images/animes/video/image/jkvideo_8884f91b8ba039d740fa99d8b3817738.jpg"
-					></img>
+			<div className=" bg-[#0a192f]  py-[30px] mx-auto">
+				<Slider {...settings} className="h-full ">
+					<AnimesCard
+						imagen={DataAnimes.Naruto.imagen}
+						nombre={DataAnimes.Naruto.titulo}
+						verYa={'VER AHORA'}
+					/>
+					<AnimesCard
+						imagen={DataAnimes.Naruto.imagen}
+						nombre={DataAnimes.Naruto.titulo}
+						verYa={'VER AHORA'}
+					/>
+					<AnimesCard
+						imagen={DataAnimes.Naruto.imagen}
+						nombre={DataAnimes.Naruto.titulo}
+						verYa={'VER AHORA'}
+					/>
+					<AnimesCard
+						imagen={DataAnimes.Naruto.imagen}
+						nombre={DataAnimes.Naruto.titulo}
+						verYa={'VER AHORA'}
+					/>
+					<AnimesCard
+						imagen={DataAnimes.Naruto.imagen}
+						nombre={DataAnimes.Naruto.titulo}
+						verYa={'VER AHORA'}
+					/>
+					<AnimesCard
+						imagen={DataAnimes.Naruto.imagen}
+						nombre={DataAnimes.Naruto.titulo}
+						verYa={'VER AHORA'}
+					/>
 				</Slider>
 			</div>
 		);
