@@ -1,5 +1,4 @@
 import React from 'react';
-
 const CardNaruto = (props) => {
 	return (
 		<div className=" md:w-[100%] lg:w-[1000px] py-6 h-full mx-auto">

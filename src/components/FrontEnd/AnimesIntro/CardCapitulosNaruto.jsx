@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FaPlay } from 'react-icons/fa';
 const CardCapitulosNaruto = (props) => {
 	return (
 		<div className="md:w-[100%] lg:w-[1000px] h-full mx-auto">
@@ -15,7 +15,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloUno})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -27,6 +27,8 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -34,7 +36,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloDos})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -46,6 +48,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -53,7 +56,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloTres})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -65,6 +68,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -72,7 +76,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloCuatro})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -84,6 +88,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -91,7 +96,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloCinco})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -103,6 +108,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -111,7 +117,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloSeis})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -123,6 +129,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -131,7 +138,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloSiete})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -143,6 +150,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -151,7 +159,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloOcho})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -163,6 +171,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -171,7 +180,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloNueve})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -183,6 +192,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -191,7 +201,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloDiez})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -203,6 +213,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -211,7 +222,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloOnce})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -223,6 +234,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>
@@ -231,7 +243,7 @@ const CardCapitulosNaruto = (props) => {
 							<div
 								className="h-[150px]  w-[100%]  rounded-[10px] hover:scale-[1.03] hover:translate-x-2 hover:duration-500"
 								style={{
-									backgroundImage: `url(${props.url})`,
+									backgroundImage: `url(${props.capituloDoce})`,
 									backgroundSize: 'cover',
 									backgroundRepeat: 'no-repeat',
 									backgroundPosition: 'center',
@@ -243,6 +255,7 @@ const CardCapitulosNaruto = (props) => {
 											Capitulo 1
 										</li>
 									</ul>
+									<FaPlay className="mx-auto items-center text-pink-600 opacity-90 text-5xl " />
 								</div>
 							</div>
 						</a>

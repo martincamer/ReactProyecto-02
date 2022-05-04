@@ -1,0 +1,28 @@
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+.arrow {
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.next {
+	right: 0;
+	top: 50%;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+
+.prev {
+	left: 0;
+	top: 50%;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	opacity: 0.9;
+}
